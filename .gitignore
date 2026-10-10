@@ -1,0 +1,28 @@
+# Built binaries
+/sntping
+/pingctl
+/pingd
+
+# Local scene state (contains local file paths)
+scene.json
+status.json
+
+# Images to draw live next to the scene
+/*.png
+/*.gif
+/*.webp
+/*.jpg
+/*.jpeg
+/*.bmp
+/*.tif
+/*.tiff
+
+# Go test and profiling output
+*.test
+*.out
+*.prof
+
+# Editors
+.idea/
+.vscode/
+*.swp
